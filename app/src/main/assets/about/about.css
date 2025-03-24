@@ -1,0 +1,17 @@
+.parts{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.btn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn:hover{
+    background-color: rgba(240, 248, 255, 0.299);
+}
+
+.longBtn{
+    width: 200px;
+}

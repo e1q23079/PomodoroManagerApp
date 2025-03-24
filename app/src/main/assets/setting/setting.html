@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Manager</title>
+    <link rel="icon" href="../icon.png" />
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="setting.css">
+</head>
+
+<body>
+    <div class="App">
+        <header class="App-header">
+            <p class='title'>
+                Pomodoro Manager
+            </p>
+            <div>
+                <p><span class='parts'>WORK TIME</span><input id="workTime" type='number' class='parts input' ></input><span class='parts'>minutes</span></p>
+                <p><span class='parts' >BREAK TIME</span><input id="breakTime" type='number' class='parts input' ></input><span class='parts'>minutes</span></p>
+                <p><span class='parts'>POMODORO COUNT</span><input id="count" type='number' class='parts input' ></input><span class='parts'>times</span></p>
+                <p><span class='parts'>VOLUME</span><input id="volume" type='range' min=0 max=10 class='parts' onchange="setVolume();"></input></p>
+                <p class='parts btn' onClick='volumeTest();'>VOLUME TEST</p>
+                <p class='parts btn' onClick='pomodoroReset();'>POMODORO RESET</p>
+                <p class='parts btn' onClick='about();'>ABOUT</p>
+                <p class='parts btn' onClick='openTimer();'>SAVE</p> 
+            </div>
+            <p>
+                Produced by e1q23079
+            </p>
+            <script src="setting.js"></script>
+        </header>
+    </div>
+</body>
+
+</html>
